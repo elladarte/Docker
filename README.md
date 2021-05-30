@@ -11,13 +11,19 @@ Docker é uma plataforma aberta para desenvolvimento, envio e execução de apli
 
 O que foi estudado:
 - Comandos do Docker para podermos baixar imagens e interagir com o container.
+
 - Montar um volume e salvar dados nele
+
 - Rodar codigo da maquina local num container
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/elladarte/Docker/main/script_on_container.png"/> </br>
 </p>
+
 - Construir a propria imagem e subir ela no Docker Hub
    
-   > docker pull rafaelladuarte/node 
+   ``` 
+   docker pull rafaelladuarte/node 
+   ```
 
-
+- Criar uma rede e realizar a comunicação entre dois containers conectando com um banco de dados
